@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.link-item {
+  text-decoration: none;
+  width: 45%;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #475569;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  min-height: 100px;
+}
+@media screen and (min-height: 768px) {
+  .card {
+    padding: 20px 30px 20px 30px;
+    min-height: 150px;
+  }
+}
+@media screen and (min-width: 550px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 150px;
+  }
+}
+.img {
+  width: 50px;
+  height: 50px;
+}
+.desc {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Bree Serif;
+  margin-left: 10px;
+}
